@@ -1,6 +1,6 @@
 module servo #(
     parameter CLK_FREQ = 25_000_000, // Clock da FPGA (25 MHz por padrão)
-    parameter PERIOD    = 500_000     // Período da PWM: 20 ms (25 MHz / 50 Hz)
+    parameter PERIOD    = 800_000     // Período da PWM: 20 ms (25 MHz / 50 Hz)
 )(
     input  wire clk,         // Clock do sistema
     input  wire rst_n,       // Reset assíncrono ativo em nível baixo
